@@ -57,7 +57,7 @@ infix fun Int.isIn(range: Range): Boolean {
     return this >= range.start && this <= range.end
 }
 
-fun main(args: Array<String>) {
+fun main() {
     solution(
         arrayOf(Range(1, 6), Range(8, 11), Range(15, 30)),
         arrayOf(Range(2, 4), Range(7, 10))

@@ -45,7 +45,7 @@ fun solution(node: Node): Node {
     return leftHead ?: rightHead!!
 }
 
-fun main(args: Array<String>) {
+fun main() {
     var node = solution(Node(1, Node(2, Node(3, Node(4, Node(5, Node(6, Node(7))))))))
     while (true) {
         print("${node.num} ")
